@@ -1,0 +1,84 @@
+body {
+    font-family: Comic Sans, Arial, 'Lucida Sans';
+    line-height:1.6;
+    width: 100%;
+}
+main {
+    text-align: center;
+    width: 60%;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 4px;
+    margin-top: 220px;
+    float: left;
+    width: 60%;
+
+}
+article {
+    border: 2px dotted rgb(230, 114, 114);
+    padding: 6px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+article img{
+    width: 130px;
+    height: 160px;
+    float:left;
+    margin-right: 10px;
+    border: 2px dotted rgb(230, 114, 114);
+    padding: 4px;
+    border-radius: 10px;
+}
+article h2{
+    border-radius: 10px;
+    border: 2px dotted rgb(230, 114, 114);
+    float: left;
+    width: 86%;
+}
+h2:hover {
+    background-color:rgb(230, 114, 114);
+    border: 2px dotted rgb(148, 43, 43);
+}
+aside{
+    margin-top: 320px;
+    float:left;
+    width: 28%;
+    border: 2px dotted rgb(230, 114, 114);
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-left: 50px;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 20px;
+}
+aside h2{
+    text-align: center;
+    border: 2px dotted rgb(230, 114, 114);
+    border-radius: 10px;
+
+}
+aside figure{
+    float:left; 
+    width: 30%;
+    border: 2px dotted rgb(230, 114, 114);
+    text-align: center;
+    border-radius: 10px;
+    padding:5px;
+}
+aside img{
+    width: 70px;
+    height: 90px;
+}
+footer {
+    clear: both;
+}
+main h1{
+    border: 2px dotted rgb(230, 114, 114);
+    border-radius: 10px;
+}
+h1:hover {
+    border: 2px dotted rgb(148, 43, 43);
+    background-color:rgb(230, 114, 114);
+}
+

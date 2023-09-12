@@ -1,0 +1,74 @@
+body {
+    font-family: Comic Sans, Arial, 'Lucida Sans';
+    line-height:1.6;
+    width: 100%;
+}
+#imgp {
+    width: 120px;
+    height: 140px;
+    float:left;
+    margin-right: 10px;
+    border: 2px dotted rgb(92, 139, 209);
+    padding: 4px;
+}
+article {
+    float:left;
+    width: 50%;
+    padding: 20px;
+    padding-left: 50px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+    border:2px dotted rgb(92, 139, 209);
+    border-radius: 10px;
+    background-color: rgb(236, 236, 236);
+    margin-bottom: 10px;
+}
+h2 {
+    border:2px dotted rgb(92, 139, 209);
+    width: 84%;
+    float:left;
+    border-radius: 10px;
+    text-align: center;
+}
+h2:hover{
+    background-color: rgb(92, 139, 209);
+    border-color: rgb(32, 71, 129);
+}
+h1:hover{
+    background-color: rgb(92, 139, 209);
+    border-color: rgb(32, 71, 129);
+}
+table {
+    width: 40%;
+    margin-right: 20px;
+
+}
+td {
+    border-color: gray ;
+}
+th, tr{
+    padding: 7px 10px 10px 10px;
+}
+th {
+    background-color: rgb(92, 139, 209) ;
+}
+.money {
+    text-align: right;
+}
+tr:hover{ 
+    background-color: rgb(150, 187, 243);
+}
+main h1 {
+    text-align: center;
+    border: 2px dotted rgb(92, 139, 209);
+    width: 54%;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+footer {
+    clear:both;
+}

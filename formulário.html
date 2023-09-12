@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="css/estrutura.css" rel="stylesheet" />
+    <link href="css/form.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <header>
+        <section id="pesquisa">
+            <form action="/login.php" method="post">
+                <input type="search" name="pesquisa" id="pesquisa-" value="pesquisar" >
+            </form>
+            <p class="lupa">
+                <img src="img/lupa.jpg">
+             </p>
+        </section>
+        <section id="imagens">
+            <img id="imgc" src="img/cabeçalho.jpg">
+        </section>
+        <section id="canto">
+            <p class="cabecalho">
+                <figure><a href="formulário.html"><img src="img/icon.jpg"></a><figcaption>Cadastre-se aqui</figcaption></figure>
+                 <a href="index.html"><img src="img/home.jpg"></a>
+            </p>
+        </section>
+
+        <br />
+        
+    <nav>
+        <a href="dark fantasy">dark fantasy</a>
+        <a href="dark side">dark side</a>
+        <a href="nacionais">nacionais</a>
+        <a href="suspense.html">suspense</a>
+        <a href="terror">terror</a>
+        <a href="resenhas.html">resenhas</a>
+        <a href="recomendações.html">recomendações</a>
+    </nav>
+    </header>
+    <main>
+        <p class="texto">
+        <h1>Cadastre-se no site!</h1>
+        <form id="formulario" action="/login.php" method="post">
+            <p>
+            <label for="nome">Nome de usuário:</label>
+            <input type="text" name="nome" id="nome" pattern="[aA-zZ\s]+$" required>
+            </p>
+            <p>
+            <label for="email">Seu email:</label>
+            <input type="email" name="email" id="email" required>
+            </p>
+            <p>
+            <label for="telefone">Seu telefone:</label>
+            <input type="text" name="telefone" id="telefone" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}$" required>
+            </p>
+            <p>
+            <label for="senha">Sua senha:</label>
+            <input type="password" name="senha" id="senha" required>
+            </p>
+            <p>
+                <label for="idade">Sua idade:</label>
+                <input type="radio" name="idade" id="idade18" required>
+                <label for="idade18">Menos de 18 anos</label>
+            </p>
+            <p>
+            <input type="radio" name="idade" id="idade19" required>
+             <label for="idade19">Maior ou igual que 18 anos</label>
+            </p>
+            <p>
+            <input type="submit" name="enviar" value="salvar">
+            </p>
+        </form>
+        </p>
+    </main>
+    <footer>
+        <address>
+            <p>Contate-nos: </p>
+            <p>carnedegaivota@gmail.com</p>
+            <p>(54) 998273549</p>
+        </address>
+    </footer>
+</body>
+</html>
